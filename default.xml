@@ -6,8 +6,7 @@
            revision="eelo-0.1"/>
 
   <remote  name="github"
-           fetch="https://github.com"
-           review="review.lineageos.org" />
+           fetch="https://github.com" />
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
@@ -24,7 +23,7 @@
 
   <!-- AOSP Projects -->
 
-  <project path="build" name="nexgenkannan/android_build" groups="pdk" remote="e">
+  <project path="build" name="nexgenkannan/android_build" groups="pdk" remote="github">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   
