@@ -23,9 +23,11 @@
 
   <!-- AOSP Projects -->
 
-  <project path="build" name="nexgenkannan/android_build" groups="pdk" remote="github">
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
+  <project path="Android" name="nexgenkannan/androidrepo1" groups="pdk" remote="github"/>
+	<project path="Android" name="nexgenkannan/androidrepo2" groups="pdk" remote="github"/>
+	<project path="Android" name="nexgenkannan/androidrepo3" groups="pdk" remote="github"/>
+    
+  
   
 
 </manifest>
