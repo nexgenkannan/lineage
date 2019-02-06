@@ -24,7 +24,7 @@
 
   <!-- AOSP Projects -->
 
-  <project path="build" name="e/os/android_build" groups="pdk" remote="e">
+  <project path="build" name="nexgenkannan/android_build" groups="pdk" remote="e">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   
